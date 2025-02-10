@@ -22,15 +22,6 @@ Run the following command in your terminal:
 brew install pkg-config
 ```
 
-### Get OpenCV Linker Flags
-
-Linker flags are already setup for opencv4. If some are missings just replace them by the result of this command.
-
-
-```bash
-pkg-config --cflags --libs opencv4
-```
-
 ### Repository Structure
 
 This project relies on a relative repository for fetching files and images. Ensure that:
@@ -47,6 +38,20 @@ If you encounter issues:
 - Ensure pkg-config is installed and working correctly.
 - Verify that OpenCV is installed via Homebrew.
 - Check that the repository structure is intact and required files are present.
+- Check the main function of the main.cpp exists.
+- CMakeLists executable names - main file project name
+
+## Issues persits ?
+
+From the folder wrapping the builder folder (App => Build).
+
+ ```bash
+cd app 
+rm -rf build
+mkdir build && cd build
+cmake -G "Xcode" ..
+make
+```
 
 
 Happy coding! 🚀
