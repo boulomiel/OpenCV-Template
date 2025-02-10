@@ -22,6 +22,15 @@ Run the following command in your terminal:
 brew install pkg-config
 ```
 
+### Get OpenCV Linker Flags
+
+Linker flags are already setup for opencv4. If some are missings just replace them by the result of this command.
+
+
+```bash
+pkg-config --cflags --libs opencv4
+```
+
 ### Repository Structure
 
 This project relies on a relative repository for fetching files and images. Ensure that:
