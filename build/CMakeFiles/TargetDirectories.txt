@@ -1,0 +1,3 @@
+/Users/rubenmimoun/Documents/GitHub/OpenCVApp/build/CMakeFiles/executable_name.dir
+/Users/rubenmimoun/Documents/GitHub/OpenCVApp/build/CMakeFiles/ALL_BUILD.dir
+/Users/rubenmimoun/Documents/GitHub/OpenCVApp/build/CMakeFiles/ZERO_CHECK.dir
